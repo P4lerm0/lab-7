@@ -7,7 +7,7 @@ namespace lab7.part2
         static void Main(string[] args)
         {
             string str = ",?.;:'";
-            Console.WriteLine("Количество знаков препинания в первой строке = " + str.Count(char.IsPunctuation));
+            Console.WriteLine("Количество знаков препинания в строке = " + str.Count(char.IsPunctuation));
         }
     }
 }
